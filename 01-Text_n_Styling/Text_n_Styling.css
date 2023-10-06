@@ -1,10 +1,28 @@
 body { 
     background-color: black;
+    text-align: center;
+}
+#header{
+    text-decoration: underline;
 }
 .header{
     color:greenyellow;
+    font-style: italic;
 }
 
-#para{
+.para{
     color:aquamarine; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 10px;
+    font-weight: 200;
+    text-align: left;
+}
+#para{
+    text-transform: capitalize;
+}
+#para2{
+    color :white; 
+    word-spacing: 20px;
+    border: 3.5px dotted pink;
+    cursor: pointer;
 }
