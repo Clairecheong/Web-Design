@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    
+}
+.margin-box{
+    width : 100px; 
+    height: 100px;
+    background-color: aquamarine;
+    margin:200px 0 0 200px;
+    text-align: center;
+}
+.padding-box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(213, 211, 211);
+    text-align:right;
+    padding: 200px 0 0 200px;
+    display: none;
+    visibility: hidden;
+    float: left;
+}
