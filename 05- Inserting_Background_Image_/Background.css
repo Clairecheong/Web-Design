@@ -1,6 +1,23 @@
-.wallpaper{
-    width: 800px;
-    height: 500px;
-    background-image: url(bunbun.jpeg)
-
+.image{
+    /*creating a box */
+    width: 1900px;
+    height: 1000px;
+    /* calling the image */
+    background-image: url(bunbun.jpeg);
+    /* get the image to fill up the box */
+    background-size: cover;
+    /* no repeat of the image if the image size is to small compared to the box*/
+    background-repeat: no-repeat;
+    /*fade as you move your cursor over the image*/
+    transition: all ease-in-out 500ms;
+}
+.image:hover{
+    background-image:url(snuggle.jpeg);
+}
+.image:after{
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1; 
 }
